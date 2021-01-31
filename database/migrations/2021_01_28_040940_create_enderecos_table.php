@@ -20,7 +20,7 @@ class CreateEnderecosTable extends Migration
             $table->string("estado");
             $table->string("cidade");
             $table->string("endereco");
-            $table->string("numero");
+            $table->string("numero")->nullable();
             $table->timestamps();
         });
     }
