@@ -52,7 +52,7 @@ PESQUISAR ENDEREÇO POR ID
 
 DELETAR ENDEREÇO POR ID
 
-- DELETE  http://127.0.0.1:8000/api/endereco/4
+- DELETE  http://127.0.0.1:8000/api/endereco/<ID>
 
 # PESQUISAR
 
